@@ -9,10 +9,11 @@ This project is a bowling game built-in Unity, featuring gameplay mechanics for 
 ## Features
 
 - **Turn-Based Mechanics**: The player has up to two turns per level to knock down all pins.
-- **Level Progression**: Automatically advances to the next level upon clearing all pins in the first turn or the second turn.
+- **Level Progression**: Automatically advances to the next level upon clearing all pins just in the first turn the make the game more difficult.
 - **Reset Mechanism**: Restarts the current level if the player fails to knock down all pins after two turns.
 - **Realistic Bowling Mechanics**: Includes side-to-side movement of the ball before the throw and realistic knockdown physics.
 - **Multi-Level Gameplay**: Handles progression across multiple levels with varying difficulties.
+- **Camera Vision**: Main camera followed the ball through his path.
 
 ---
 
@@ -24,11 +25,11 @@ This project is a bowling game built-in Unity, featuring gameplay mechanics for 
 
 2. **Turn Management**:
    - Players get two turns per level to knock down all pins.
-   - If successful within the first or second turn, the game transitions to the next level.
+   - If successful within the first turn, the game transitions to the next level.
    - If unsuccessful, the level restarts.
 
 3. **Win Condition**:
-   - Knock down all pins within two turns to progress to the next level.
+   - Knock down all pins within one turns to progress to the next level.
 
 ---
 
