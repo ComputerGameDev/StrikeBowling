@@ -1,6 +1,6 @@
 # Bowling Game with Unity
 
-This project is a bowling game built in Unity, featuring gameplay mechanics for single-player bowling. The game transitions to the next level when the player knocks down all pins, with proper turn management and logic handling for both first and second turns.
+This project is a bowling game built-in Unity, featuring gameplay mechanics for single-player bowling. The game transitions to the next level when the player knocks down all pins, with proper turn management and logic handling for both first and second turns.
 
 - **Itch.io Page**: [Strike Bowling on Itch.io](https://tomgoz.itch.io/strikebowling)
 
@@ -9,7 +9,7 @@ This project is a bowling game built in Unity, featuring gameplay mechanics for 
 ## Features
 
 - **Turn-Based Mechanics**: The player has up to two turns per level to knock down all pins.
-- **Level Progression**: Automatically advances to the next level upon clearing all pins in one strike in the first turn.
+- **Level Progression**: Automatically advances to the next level upon clearing all pins in the first turn or the second turn.
 - **Reset Mechanism**: Restarts the current level if the player fails to knock down all pins after two turns.
 - **Realistic Bowling Mechanics**: Includes side-to-side movement of the ball before the throw and realistic knockdown physics.
 - **Multi-Level Gameplay**: Handles progression across multiple levels with varying difficulties.
@@ -24,11 +24,11 @@ This project is a bowling game built in Unity, featuring gameplay mechanics for 
 
 2. **Turn Management**:
    - Players get two turns per level to knock down all pins.
-   - If successful in the first turn, the game transitions to the next level.
-   - If unsuccessful , the level restarts.
+   - If successful within the first or second turn, the game transitions to the next level.
+   - If unsuccessful, the level restarts.
 
 3. **Win Condition**:
-   - Knock down all pins in one turns to progress to the next level.
+   - Knock down all pins within two turns to progress to the next level.
 
 ---
 
@@ -49,8 +49,8 @@ This script manages the core game mechanics, including:
 - `LoadNextLevel`: Loads the next scene from the build index.
 
 ---
-  
-##  Levels
+
+## Levels
 
 ### Level One
 In level one, the pins are positioned closer, providing an easier challenge for beginners.
